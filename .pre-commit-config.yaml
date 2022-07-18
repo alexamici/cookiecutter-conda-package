@@ -13,8 +13,9 @@ repos:
   rev: 0.7.14
   hooks:
   - id: mdformat
+    exclude: cruft-update-template.md
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.3.0
+  rev: v2.4.0
   hooks:
   - id: pretty-format-yaml
     args: [--autofix]
